@@ -70,7 +70,6 @@ nav {
   background-color: #777;
 }
 
-/*.codeHTML{}*/
 .codeBox {
   position: relative;
   width: 100%;
@@ -88,20 +87,12 @@ nav {
   background-color: #fff;
   border-radius: 2px;
 }
-.d-none {
-  display: none;
-}
 .btnRun {
   padding: 8px 15px;
   border-radius: 6px;
   cursor: pointer;
   background-color: orange;
 }
-
-.active {
-  color: orange;
-}
-
-.wrapper {
-  display: flex;
-}
+.d-none { display: none }
+.active { color: orange }
+.wrapper { display: flex }
