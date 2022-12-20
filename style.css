@@ -15,10 +15,10 @@ header {
   color: #fff;
 }
 
-/* .container {
-  width: 1200px;
+.container {
+  padding: 0 20px;
   margin: 0 auto;
-} */
+}
 
 nav {
   display: flex;
