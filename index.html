@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Jquery</title>
+    <link rel="stylesheet" href="style.css" />
+    <script src="jquery-3.6.2.min.js" defer></script>
+    <script src="main.js" defer></script>
+  </head>
+  <body>
+    <header>
+      <div class="container">
+        <nav>
+          <div class="logo">
+            <strong>CodePen | by</strong><br /><span> Rahmatshoh</span>
+          </div>
+          <ul class="menu">
+            <li data-name="html" class="active">HTML</li>
+            <li data-name="css">CSS</li>
+            <li data-name="js">JS</li>
+            <li data-name="result" class="active">Result</li>
+          </ul>
+          <button class="btnRun" id="btnRun">Run</button>
+        </nav>
+      </div>
+    </header>
+    <main>
+      <div class="container">
+        <div class="wrapper">
+          <div class="codeBox" id="htmlCodeBox">
+            <textarea id="htmlCodeFeild" class="codeFeild">
+							<div id="test">sdf</div>
+						</textarea
+            >
+            <span class="titleCode">HTML</span>
+          </div>
+
+          <div class="codeBox d-none" id="cssCodeBox">
+            <textarea id="cssCodeFeild" class="codeFeild">
+							#test {
+								background:green;
+								width:80px;
+								height:80px;
+								border-radius:100px;
+								}
+						</textarea
+            >
+            <span class="titleCode">CSS</span>
+          </div>
+
+          <div class="codeBox d-none" id="jsCodeBox">
+            <textarea id="jsCodeFeild" class="codeFeild">
+							alert(1)
+						</textarea
+            >
+            <span class="titleCode">JS</span>
+          </div>
+
+          <div class="codeBox" id="resultCodeBox">
+            <div id="resultCodeFeild" class="codeFeild">Result</div>
+            <span class="titleCode">Result</span>
+          </div>
+        </div>
+      </div>
+    </main>
+  </body>
+</html>
