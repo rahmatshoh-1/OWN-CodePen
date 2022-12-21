@@ -22,9 +22,8 @@ function run() {
   btnRun.addEventListener("click", function () {
     let textareaHTML = (resultCodeFeild.innerHTML =
       htmlCodeFeild.value.replace(/^\s+|\s+$/gm, "") +
-      "<style>" +
-      cssCodeFeild.value.replace(/^\s+|\s+$/gm, "") +
-      "</style>") + eval(jsCodeFeild.value);
+      "<style>" + cssCodeFeild.value.replace(/^\s+|\s+$/gm, "") + "</style>") +
+      "<script>" + eval(jsCodeFeild.value) + "</script>";
   });
 }
 
